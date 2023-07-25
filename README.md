@@ -1,10 +1,10 @@
 # utils-snap-fn-docs
 
-This is `API Documentation` for [utils-snap-fn](https://github.com/guxuerui/utils-snap-fn)
+The `API Documentation` for [utils-snap-fn](https://github.com/guxuerui/utils-snap-fn)
 
 **Website**
 
-Haven't now...
+[utils-snap-fn.netlify.app](https://utils-snap-fn.netlify.app)
 
 ## LICENSE
 
