@@ -41,6 +41,9 @@ export default defineConfig({
         brotliSize: true,
       }),
     ],
+    ssr: {
+      noExternal: ['utils-snap-fn'],
+    },
   },
   head: [
     ['link', { rel: 'icon', href: 'favicon.svg' }],
