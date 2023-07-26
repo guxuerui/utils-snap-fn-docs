@@ -1,3 +1,7 @@
+---
+titleTemplate: utils-snap-fn-docs
+---
+
 # Sizing
 
 ## Scaling

@@ -14,18 +14,12 @@ hero:
   - theme: brand
     text: Guide
     link: /guide/
-  - theme: alt
-    text: Configs
-    link: /config/
-  - theme: alt
-    text: Blog Demo
-    link: /blog/
 
 features:
-- title: "VitePress: Designed to be simplicity first"
-  details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-- title: "UnoCSS: The instant on-demand Atomic CSS engine"
-  details: UnoCSS is an atomic-CSS engine instead of a framework. Everything is designed with flexibility and performance in mind.
-- title: "Blog Demo included"
-  details: Posts and Authors as sample predefinded. Composables for accessing data included.
+- title: "Easy to use"
+  details: Many useful functions are easy to use with Vue / Svelte / React.
+- title: "Support for multiple scenarios"
+  details: You can use these when valid value or handle dom and so on...
+- title: "Demo included"
+  details: Each function has a corresponding demo to aid in understanding and usage.
 ---
