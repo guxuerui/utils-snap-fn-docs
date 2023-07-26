@@ -4,7 +4,7 @@ import { visualizer } from 'rollup-plugin-visualizer'
 
 export default defineConfig({
   base: '/',
-  description: 'Blog included. Built on top of UnoCSS and Anu.',
+  description: 'Api docs, build on top of typescript.',
   markdown: {
     headers: {
       level: [0, 0],
@@ -30,11 +30,6 @@ export default defineConfig({
     nav: nav(),
     sidebar: {
       '/guide/': sidebarGuide(),
-      '/config/': sidebarConfig(),
-    },
-    blog: {
-      title: 'My Blog',
-      description: 'Some articles for sample Blog',
     },
   } as any,
   vite: {
@@ -55,65 +50,53 @@ export default defineConfig({
 function nav() {
   return [
     { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-    { text: 'Configs', link: '/config/', activeMatch: '/config/' },
-    { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
     {
       text: 'External Docs',
       items: [
         {
-          text: 'Vitepress',
-          link: 'https://vitepress.vuejs.org',
-        },
-        {
-          text: 'UnoCSS',
-          link: 'https://uno.antfu.me',
-        },
-        {
-          text: 'Anu',
-          link: 'https://anu-vue.netlify.app',
+          text: 'utils-snap-fn',
+          link: 'https://github.com/guxuerui/utils-snap-fn',
         },
       ],
     },
-    // {
-    //   text: version,
-    //   items: [
-    //     {
-    //       text: 'Changelog',
-    //       link: 'https://github.com/sfxcode/vitepress-blog-starter/blob/main/CHANGELOG.md',
-    //     },
-    //   ],
-    // },
   ]
 }
 
 function sidebarGuide() {
   return [
     {
-      text: 'Introduction',
+      text: 'Guide',
       collapsible: true,
       items: [
-        { text: 'What is this?', link: '/guide/' },
+        { text: 'Get Started', link: '/guide/' },
       ],
     },
     {
-      text: 'Features',
+      text: 'API',
       collapsible: true,
       items: [
-        { text: 'UnoCSS', link: '/guide/features/unocss' },
-        { text: 'Anu', link: '/guide/features/anu' },
-      ],
-    },
-  ]
-}
-
-function sidebarConfig() {
-  return [
-    {
-      text: 'Config',
-      items: [
-        { text: 'Introduction', link: '/config/' },
-        { text: 'UnoCSS', link: '/config/unocss' },
-        { text: 'Anu', link: '/config/anu' },
+        {
+          text: 'Regex',
+          collapsible: true,
+          items: [
+            { text: 'isPhoneNum', link: '/guide/regex/isPhoneNum' },
+            { text: 'isSafari', link: '/guide/regex/isSafari' },
+            { text: 'isMobile', link: '/guide/regex/isMobile' },
+            { text: 'isEmail', link: '/guide/regex/isEmail' },
+            { text: 'isIdCard', link: '/guide/regex/isIdCard' },
+            { text: 'isIpv4', link: '/guide/regex/isIpv4' },
+            { text: 'isIpv6', link: '/guide/regex/isIpv6' },
+            { text: 'isValidUUID ', link: '/guide/regex/isValidUUID' },
+          ],
+        },
+        {
+          text: 'Array',
+          collapsible: true,
+          items: [
+            { text: 'isArrayEqual', link: '/guide/regex/isArrayEqual' },
+            { text: 'removeDuplicatesObj', link: '/guide/regex/removeDuplicatesObj' },
+          ],
+        },
       ],
     },
   ]
