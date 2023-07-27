@@ -31,3 +31,5 @@ onMounted(() => {
   ifSafari.value = isSafari()
 })
 ```
+
+[Source Code](https://github.com/guxuerui/utils-snap-fn/blob/main/src/playground/regexp/isSafari.ts)

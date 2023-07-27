@@ -45,3 +45,5 @@ onMounted(() => {
   ifPhoneNum.value = isPhoneNum('133456732412') // false
 })
 ```
+
+[Source Code](https://github.com/guxuerui/utils-snap-fn/blob/main/src/playground/regexp/isPhoneNum.ts)
