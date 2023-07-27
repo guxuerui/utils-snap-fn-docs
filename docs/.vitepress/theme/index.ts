@@ -11,6 +11,7 @@ import PostAuthor from './components/blog/PostAuthor.vue'
 import AuthorDetail from './components/blog/AuthorDetail.vue'
 import Box from './components/base/Box.vue'
 import IsPhoneNumDemo from './components/regex/IsPhoneNumDemo.vue'
+import IsSafariDemo from './components/regex/isSafariDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -24,5 +25,6 @@ export default {
     app.component('AuthorDetail', AuthorDetail)
     app.component('Box', Box)
     app.component('IsPhoneNumDemo', IsPhoneNumDemo)
+    app.component('IsSafariDemo', IsSafariDemo)
   },
 }
