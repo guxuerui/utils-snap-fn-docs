@@ -3,10 +3,11 @@ import type { App } from 'vue'
 import 'uno.css'
 
 import Box from './components/base/Box.vue'
-import IsPhoneNumDemo from './components/regex/IsPhoneNumDemo.vue'
+import IsPhoneNumDemo from './components/regex/isPhoneNumDemo.vue'
 import IsSafariDemo from './components/regex/isSafariDemo.vue'
 import IsMobileDemo from './components/regex/isMobileDemo.vue'
 import IsEmailDemo from './components/regex/isEmailDemo.vue'
+import IsIdCardDemo from './components/regex/isIdCardDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -16,5 +17,6 @@ export default {
     app.component('IsSafariDemo', IsSafariDemo)
     app.component('IsMobileDemo', IsMobileDemo)
     app.component('IsEmailDemo', IsEmailDemo)
+    app.component('IsIdCardDemo', IsIdCardDemo)
   },
 }
