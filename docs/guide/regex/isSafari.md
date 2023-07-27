@@ -1,0 +1,33 @@
+---
+titleTemplate: utils-snap-fn-docs
+---
+
+# isSafari
+
+**Definition**:
+
+```js
+/**
+ * Juge if is Safari browser
+ * @returns eturn a boolean value, where true represents it is a Safari browser, and false represents it is not
+*/
+```
+
+# Demo
+
+<Box>
+  <IsSafariDemo />
+</Box>
+
+# Usage Example
+
+```js
+import { onMounted, ref } from 'vue'
+import { isSafari } from 'utils-snap-fn'
+
+const ifSafari = ref()
+
+onMounted(() => {
+  ifSafari.value = isSafari()
+})
+```
