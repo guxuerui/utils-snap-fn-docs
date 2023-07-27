@@ -5,7 +5,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs --host 0.0.0.0",
     "lint:fix": "eslint . --fix",
-    "up": "taze major -I"
+    "up": "taze major -I",
+    "bumpp": "npx bumpp --commit --tag --push"
   },
   "dependencies": {
     "date-fns": "^2.30.0",
