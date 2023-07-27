@@ -6,6 +6,7 @@ import Box from './components/base/Box.vue'
 import IsPhoneNumDemo from './components/regex/IsPhoneNumDemo.vue'
 import IsSafariDemo from './components/regex/isSafariDemo.vue'
 import IsMobileDemo from './components/regex/isMobileDemo.vue'
+import IsEmailDemo from './components/regex/isEmailDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -14,5 +15,6 @@ export default {
     app.component('IsPhoneNumDemo', IsPhoneNumDemo)
     app.component('IsSafariDemo', IsSafariDemo)
     app.component('IsMobileDemo', IsMobileDemo)
+    app.component('IsEmailDemo', IsEmailDemo)
   },
 }
