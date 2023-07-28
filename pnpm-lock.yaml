@@ -11,8 +11,8 @@ dependencies:
     specifier: ^0.53.6
     version: 0.53.6(postcss@8.4.27)(vite@4.4.7)
   utils-snap-fn:
-    specifier: ^1.1.10
-    version: 1.1.10
+    specifier: ^1.1.12
+    version: 1.1.12
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -4416,8 +4416,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /utils-snap-fn@1.1.10:
-    resolution: {integrity: sha512-st729IcKpyTDrlrHqxLrVI4RfG5T2vLCFs/RmuYWwrOiQhhexzJXt8q1L1igJK/mO0d/ONynTKOxl4a0cwuV/Q==}
+  /utils-snap-fn@1.1.12:
+    resolution: {integrity: sha512-EwAh4PL7mUHpPO/hE0OOQivoEYA1Rz2xe+bw8v1pPSkES4wODXqFQdjRumqYnrDfsmqSjek9yYC7J0xlNzpkog==}
     dev: false
 
   /validate-npm-package-license@3.0.4:
