@@ -92,14 +92,14 @@ function sidebarGuide() {
             { text: 'isValidUUID ', link: '/guide/regex/isValidUUID' },
           ],
         },
-        // {
-        //   text: 'Array',
-        //   collapsible: true,
-        //   items: [
-        //     { text: 'isArrayEqual', link: '/guide/regex/isArrayEqual' },
-        //     { text: 'removeDuplicatesObj', link: '/guide/regex/removeDuplicatesObj' },
-        //   ],
-        // },
+        {
+          text: 'Array',
+          collapsible: true,
+          items: [
+            { text: 'isArrayEqual', link: '/guide/regex/isArrayEqual' },
+            { text: 'removeDuplicatesObj', link: '/guide/regex/removeDuplicatesObj' },
+          ],
+        },
       ],
     },
   ]
