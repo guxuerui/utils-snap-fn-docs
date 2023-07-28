@@ -10,6 +10,7 @@ import IsEmailDemo from './components/regex/isEmailDemo.vue'
 import IsIdCardDemo from './components/regex/isIdCardDemo.vue'
 import IsIpv4Demo from './components/regex/isIpv4Demo.vue'
 import IsIpv6Demo from './components/regex/isIpv6Demo.vue'
+import IsValidUUIDDemo from './components/regex/isValidUUIDDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -22,5 +23,6 @@ export default {
     app.component('IsIdCardDemo', IsIdCardDemo)
     app.component('IsIpv4Demo', IsIpv4Demo)
     app.component('IsIpv6Demo', IsIpv6Demo)
+    app.component('IsValidUUIDDemo', IsValidUUIDDemo)
   },
 }
