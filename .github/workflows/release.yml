@@ -7,13 +7,13 @@ on:
 name: Create Release
 
 jobs:
-  build:
+  release:
     name: Create Release
-    runs-on: ['self-hosted']
+    runs-on: ubuntu-latest
+
     steps:
-      - run: npx changelogithub
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Create Release
         id: create_release
@@ -25,4 +25,6 @@ jobs:
           release_name: ${{ github.ref }}
           draft: false
           prerelease: false
+          body: |
+            Please refer to [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md) for details.
 
