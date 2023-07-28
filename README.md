@@ -4,7 +4,7 @@ The `API Documentation` for [utils-snap-fn](https://github.com/guxuerui/utils-sn
 
 **Website**
 
-[utils-snap-fn.netlify.app](https://utils-snap-fn.netlify.app)
+Please look [utils-snap-fn.netlify.app](https://utils-snap-fn.netlify.app)
 
 ## LICENSE
 
