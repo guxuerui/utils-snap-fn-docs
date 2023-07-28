@@ -20,7 +20,7 @@ onMounted(() => {
     <input
       id="input"
       v-model.trim="inputVal"
-      placeholder="Enter phonenum..."
+      placeholder="Enter Id card..."
       type="text"
       autocomplete="true"
       class="w-full h-10 pl-3 mb-3 text-left bg-gray-700 dark:bg-gray-800 focus:border focus:border-dashed focus:border-teal-500 rounded outline-none"
