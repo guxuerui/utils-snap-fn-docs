@@ -27,7 +27,7 @@ onMounted(() => {
       @keydown.enter="reset"
     >
     <div>
-      Is this a valid Id card number?
+      Is this a valid UUID?
       <span class="text-emerald-600 text-xl ml-2">{{ ifValidUUID }}</span>
     </div>
     <button class="btn mt-2" @click="reset">
