@@ -1,15 +1,19 @@
-name: Create release
+# Name of the workflow
+name: Release
 
+# Run on every commit tag which begins with "v" (e.g., "v0.1.4")
 on:
   push:
     tags:
-      - v* # 当有以 "v" 开头的 tag push 时触发
+      - "v*"
 
+# Automatically create a GitHub Release, with release details specified (the relevant commits)
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: GH Release
-        uses: softprops/action-gh-release@v0.1.15
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
