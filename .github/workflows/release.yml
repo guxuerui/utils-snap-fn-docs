@@ -6,17 +6,10 @@ on:
       - v* # 当有以 "v" 开头的 tag push 时触发
 
 jobs:
-  release:
-    name: Release pushed tag
-    runs-on: ubuntu-22.04
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref_name }}
-        run: |
-          gh release create "$tag" \
-            --repo="$GITHUB_REPOSITORY" \
-            --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
-            --generate-notes
-
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: GH Release
+        uses: softprops/action-gh-release@v0.1.15
