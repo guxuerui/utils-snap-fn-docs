@@ -8,6 +8,7 @@ import IsSafariDemo from './components/regex/isSafariDemo.vue'
 import IsMobileDemo from './components/regex/isMobileDemo.vue'
 import IsEmailDemo from './components/regex/isEmailDemo.vue'
 import IsIdCardDemo from './components/regex/isIdCardDemo.vue'
+import IsIpv4Demo from './components/regex/isIpv4Demo.vue'
 
 export default {
   ...DefaultTheme,
@@ -18,5 +19,6 @@ export default {
     app.component('IsMobileDemo', IsMobileDemo)
     app.component('IsEmailDemo', IsEmailDemo)
     app.component('IsIdCardDemo', IsIdCardDemo)
+    app.component('IsIpv4Demo', IsIpv4Demo)
   },
 }
