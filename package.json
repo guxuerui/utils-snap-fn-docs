@@ -6,7 +6,8 @@
     "docs:preview": "vitepress preview docs --host 0.0.0.0",
     "lint:fix": "eslint . --fix",
     "up": "taze major -I",
-    "bumpp": "npx bumpp --commit --tag --push"
+    "bumpp": "npx bumpp --commit --tag --push",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
     "date-fns": "^2.30.0",
@@ -19,6 +20,7 @@
     "@antfu/eslint-config": "^0.39.8",
     "@iconify/json": "^2.2.94",
     "@types/node": "^18.17.0",
+    "conventional-changelog-cli": "^3.0.0",
     "eslint": "^8.45.0",
     "rollup-plugin-visualizer": "^5.9.2",
     "taze": "^0.11.2",
