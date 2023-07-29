@@ -96,8 +96,8 @@ function sidebarGuide() {
           text: 'Array',
           collapsible: true,
           items: [
-            { text: 'isArrayEqual', link: '/guide/regex/isArrayEqual' },
-            { text: 'removeDuplicatesObj', link: '/guide/regex/removeDuplicatesObj' },
+            { text: 'isArrayEqual', link: '/guide/array/isArrayEqual' },
+            { text: 'removeDuplicatesObj', link: '/guide/array/removeDuplicatesObj' },
           ],
         },
       ],
