@@ -26,4 +26,3 @@ jobs:
           prerelease: false
           body: |
             Please refer to [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md) for details.
-
