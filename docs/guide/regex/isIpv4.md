@@ -22,7 +22,7 @@ titleTemplate: utils-snap-fn-docs
 
 # Usage Example
 
-```js
+```ts
 import { onMounted, ref } from 'vue'
 import { isIpv4 } from 'utils-snap-fn'
 

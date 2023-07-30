@@ -23,7 +23,7 @@ titleTemplate: utils-snap-fn-docs
 # Usage Example
 
 1. For Number
-```js
+```ts
 import { onMounted, ref } from 'vue'
 import { isPhoneNum } from 'utils-snap-fn'
 

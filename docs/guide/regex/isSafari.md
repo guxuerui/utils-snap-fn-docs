@@ -21,7 +21,7 @@ titleTemplate: utils-snap-fn-docs
 
 # Usage Example
 
-```js
+```ts
 import { onMounted, ref } from 'vue'
 import { isSafari } from 'utils-snap-fn'
 
