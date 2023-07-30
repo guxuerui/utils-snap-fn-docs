@@ -11,7 +11,8 @@ import IsIdCardDemo from './components/regex/isIdCardDemo.vue'
 import IsIpv4Demo from './components/regex/isIpv4Demo.vue'
 import IsIpv6Demo from './components/regex/isIpv6Demo.vue'
 import IsValidUUIDDemo from './components/regex/isValidUUIDDemo.vue'
-import IsArrayEqualDemo from './components/array/isArrayEqualDeml.vue'
+import IsArrayEqualDemo from './components/array/isArrayEqualDemo.vue'
+import RemoveDuplicatesObjDemo from './components/array/removeDuplicatesObjDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -26,5 +27,6 @@ export default {
     app.component('IsIpv6Demo', IsIpv6Demo)
     app.component('IsValidUUIDDemo', IsValidUUIDDemo)
     app.component('IsArrayEqualDemo', IsArrayEqualDemo)
+    app.component('RemoveDuplicatesObjDemo', RemoveDuplicatesObjDemo)
   },
 }
