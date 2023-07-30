@@ -12,6 +12,6 @@ onMounted(() => {
 <template>
   <div>
     Is this a mobile device?
-    <span class="text-emerald-600 text-xl ml-2">{{ ifMobile }}</span>
+    <span class="text-emerald-500 text-xl ml-2">{{ ifMobile }}</span>
   </div>
 </template>

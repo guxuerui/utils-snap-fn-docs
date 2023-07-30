@@ -1,6 +1,6 @@
 import path = require('path')
 import fs = require('fs')
-import { fileURLToPath } from 'url'
+import { fileURLToPath } from 'node:url'
 import matter = require('gray-matter')
 
 export default () => {

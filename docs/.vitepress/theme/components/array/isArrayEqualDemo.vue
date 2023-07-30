@@ -12,9 +12,11 @@ onMounted(() => {
 <template>
   <div>
     <div>
-      <p>const arr1  = [1, 2, 3]; const arr2 = [1, 2, 3]</p>
+      <p class="text-orange-400">
+        const arr1  = [1, 2, 3]; const arr2 = [1, 2, 3]
+      </p>
       Is this two array equal?
-      <span class="text-emerald-600 text-xl ml-2">{{ ifEauql }}</span>
+      <span class="text-emerald-500 text-xl ml-2">{{ ifEauql }}</span>
     </div>
   </div>
 </template>

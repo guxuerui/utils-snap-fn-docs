@@ -28,7 +28,7 @@ onMounted(() => {
     >
     <div>
       Is this a phone number?
-      <span class="text-emerald-600 text-xl ml-2">{{ ifPhoneNum }}</span>
+      <span class="text-emerald-500 text-xl ml-2">{{ ifPhoneNum }}</span>
     </div>
     <button class="btn mt-2" @click="reset">
       TEST

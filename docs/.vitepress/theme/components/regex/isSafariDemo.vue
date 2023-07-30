@@ -12,6 +12,6 @@ onMounted(() => {
 <template>
   <div>
     Is this Safari browser?
-    <span class="text-emerald-600 text-xl ml-2">{{ ifSafari }}</span>
+    <span class="text-emerald-500 text-xl ml-2">{{ ifSafari }}</span>
   </div>
 </template>

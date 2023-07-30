@@ -28,7 +28,7 @@ onMounted(() => {
     >
     <div>
       Is this a valid UUID?
-      <span class="text-emerald-600 text-xl ml-2">{{ ifValidUUID }}</span>
+      <span class="text-emerald-500 text-xl ml-2">{{ ifValidUUID }}</span>
     </div>
     <button class="btn mt-2" @click="reset">
       TEST
