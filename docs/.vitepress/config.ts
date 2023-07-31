@@ -100,6 +100,13 @@ function sidebarGuide() {
             { text: 'removeDuplicatesObj', link: '/guide/array/removeDuplicatesObj' },
           ],
         },
+        {
+          text: 'Random',
+          collapsible: true,
+          items: [
+            { text: 'randomUUID', link: '/guide/random/randomUUID' },
+          ],
+        },
       ],
     },
   ]
