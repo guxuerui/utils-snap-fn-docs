@@ -13,6 +13,7 @@ import IsIpv6Demo from './components/regex/isIpv6Demo.vue'
 import IsValidUUIDDemo from './components/regex/isValidUUIDDemo.vue'
 import IsArrayEqualDemo from './components/array/isArrayEqualDemo.vue'
 import RemoveDuplicatesObjDemo from './components/array/removeDuplicatesObjDemo.vue'
+import RandomUUIRDemo from './components/random/randomUUIDDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -28,5 +29,6 @@ export default {
     app.component('IsValidUUIDDemo', IsValidUUIDDemo)
     app.component('IsArrayEqualDemo', IsArrayEqualDemo)
     app.component('RemoveDuplicatesObjDemo', RemoveDuplicatesObjDemo)
+    app.component('RandomUUIRDemo', RandomUUIRDemo)
   },
 }
