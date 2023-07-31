@@ -106,6 +106,7 @@ function sidebarGuide() {
           items: [
             { text: 'randomUUID', link: '/guide/random/randomUUID' },
             { text: 'randomNum', link: '/guide/random/randomNum' },
+            { text: 'randomColor', link: '/guide/random/randomColor' },
           ],
         },
       ],
