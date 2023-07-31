@@ -105,6 +105,7 @@ function sidebarGuide() {
           collapsible: true,
           items: [
             { text: 'randomUUID', link: '/guide/random/randomUUID' },
+            { text: 'randomNum', link: '/guide/random/randomNum' },
           ],
         },
       ],
