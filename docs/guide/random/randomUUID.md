@@ -18,7 +18,7 @@ titleTemplate: utils-snap-fn-docs
 # Demo
 
 <Box>
-  <RandomUUIRDemo />
+  <RandomUUIDDemo />
 </Box>
 
 # Usage Example
