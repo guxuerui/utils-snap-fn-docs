@@ -15,6 +15,7 @@ import IsArrayEqualDemo from './components/array/isArrayEqualDemo.vue'
 import RemoveDuplicatesObjDemo from './components/array/removeDuplicatesObjDemo.vue'
 import RandomUUIDDemo from './components/random/randomUUIDDemo.vue'
 import RandomNumDemo from './components/random/randomNumDemo.vue'
+import RandomColorDemo from './components/random/randomColorDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -32,5 +33,6 @@ export default {
     app.component('RemoveDuplicatesObjDemo', RemoveDuplicatesObjDemo)
     app.component('RandomUUIDDemo', RandomUUIDDemo)
     app.component('RandomNumDDemo', RandomNumDemo)
+    app.component('RandomColorDemo', RandomColorDemo)
   },
 }
