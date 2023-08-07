@@ -109,6 +109,13 @@ function sidebarGuide() {
             { text: 'randomColor', link: '/guide/random/randomColor' },
           ],
         },
+        {
+          text: 'String',
+          collapsible: true,
+          items: [
+            { text: 'capitlasFirstLetter', link: '/guide/string/capitlasFirstLetter' },
+          ],
+        },
       ],
     },
   ]
