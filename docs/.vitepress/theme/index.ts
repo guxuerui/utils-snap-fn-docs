@@ -16,6 +16,7 @@ import RemoveDuplicatesObjDemo from './components/array/removeDuplicatesObjDemo.
 import RandomUUIDDemo from './components/random/randomUUIDDemo.vue'
 import RandomNumDemo from './components/random/randomNumDemo.vue'
 import RandomColorDemo from './components/random/randomColorDemo.vue'
+import CapitalsFirstLetterDemo from './components/string/capitalsFirstLetterDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -34,5 +35,6 @@ export default {
     app.component('RandomUUIDDemo', RandomUUIDDemo)
     app.component('RandomNumDDemo', RandomNumDemo)
     app.component('RandomColorDemo', RandomColorDemo)
+    app.component('CapitalsFirstLetterDemo', CapitalsFirstLetterDemo)
   },
 }
