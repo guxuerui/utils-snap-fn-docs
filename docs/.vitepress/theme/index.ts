@@ -17,6 +17,7 @@ import RandomUUIDDemo from './components/random/randomUUIDDemo.vue'
 import RandomNumDemo from './components/random/randomNumDemo.vue'
 import RandomColorDemo from './components/random/randomColorDemo.vue'
 import CapitalsFirstLetterDemo from './components/string/capitalsFirstLetterDemo.vue'
+import UppercaseEveryWordDemo from './components/string/uppercaseEveryWordDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -36,5 +37,6 @@ export default {
     app.component('RandomNumDDemo', RandomNumDemo)
     app.component('RandomColorDemo', RandomColorDemo)
     app.component('CapitalsFirstLetterDemo', CapitalsFirstLetterDemo)
+    app.component('UppercaseEveryWordDemo', UppercaseEveryWordDemo)
   },
 }

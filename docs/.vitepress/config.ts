@@ -114,6 +114,9 @@ function sidebarGuide() {
           collapsible: true,
           items: [
             { text: 'capitlasFirstLetter', link: '/guide/string/capitlasFirstLetter' },
+            { text: 'uppercaseEveryWord', link: '/guide/string/uppercaseEveryWord' },
+            { text: 'uppercaseEveryLetters', link: '/guide/string/uppercaseEveryLetters' },
+            { text: 'lowercaseEveryLetters', link: '/guide/string/lowercaseEveryLetters' },
           ],
         },
       ],
