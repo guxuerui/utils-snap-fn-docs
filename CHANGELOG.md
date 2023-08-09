@@ -1,3 +1,16 @@
+## [0.0.5](https://github.com/guxuerui/utils-snap-fn-docs/compare/v0.0.4...v0.0.5) (2023-08-08)
+
+
+### Features
+
+* **capitalsFirstLetter.md:** add documentation for the `capitalsFirstLetter` function ([dc7fc26](https://github.com/guxuerui/utils-snap-fn-docs/commit/dc7fc26458e3208849a6aea8ad17507ebf80afe3))
+* **docs:** add CapitalsFirstLetterDemo component to the theme ([2ab2ec9](https://github.com/guxuerui/utils-snap-fn-docs/commit/2ab2ec980698f639efde5911f027ddbe9a137e95))
+* **docs:** add LowercaseEveryLettersDemo component ([b30a872](https://github.com/guxuerui/utils-snap-fn-docs/commit/b30a872fa4e184258882ed3feb288851881db4c7))
+* **docs:** add support for uppercaseEveryWord function in utils-snap-fn ([3676b45](https://github.com/guxuerui/utils-snap-fn-docs/commit/3676b45d8317f8090f449303130f2e1e88f3dd29))
+* **docs:** add UppercaseEveryLettersDemo component to the documentation theme ([65d7656](https://github.com/guxuerui/utils-snap-fn-docs/commit/65d7656984b8ad635b1fb983d6e21210ade38364))
+
+
+
 ## [0.0.4](https://github.com/guxuerui/utils-snap-fn-docs/compare/v0.0.3...v0.0.4) (2023-07-31)
 
 
