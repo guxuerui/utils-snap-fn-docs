@@ -119,6 +119,14 @@ function sidebarGuide() {
             { text: 'lowercaseEveryLetters', link: '/guide/string/lowercaseEveryLetters' },
           ],
         },
+        {
+          text: 'Tree',
+          collapsible: true,
+          items: [
+            { text: 'findTreeNode', link: '/guide/tree/findTreeNode' },
+            { text: 'findAllNode', link: '/guide/tree/findAllNode' },
+          ],
+        },
       ],
     },
   ]
