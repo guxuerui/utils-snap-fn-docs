@@ -8,7 +8,7 @@ titleTemplate: utils-snap-fn-docs
 
 ```js
 /**
- * @param str The string to be processed.
+ * @param str - The string to be processed.
  * @returns The string with all letters of each word capitalized.
  * @description Convert all letters of each word in the string to uppercase and return it.
 **/

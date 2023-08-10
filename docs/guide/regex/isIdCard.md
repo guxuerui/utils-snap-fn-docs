@@ -9,7 +9,7 @@ titleTemplate: utils-snap-fn-docs
 ```js
 /**
  * Determine whether the input string or number is an ID card number
- * @param str String or Number to be tested
+ * @param str - String or Number to be tested
  * @returns Return a boolean value, where true indicates it is a valid Id card number, and false indicates it is not
 */
 ```

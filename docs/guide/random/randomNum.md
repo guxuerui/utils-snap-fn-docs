@@ -9,8 +9,8 @@ titleTemplate: utils-snap-fn-docs
 ```js
 /**
  * Generate a random number within a specified range.
- * @param min The minimum value of the range.
- * @param max The maximum value of the range.
+ * @param min - The minimum value of the range.
+ * @param max - The maximum value of the range.
  * @returns The generated random number within the specified range.
  * @description Generate a random number within the specified range [min, max].
 */

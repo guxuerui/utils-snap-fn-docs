@@ -8,8 +8,8 @@ titleTemplate: utils-snap-fn-docs
 
 ```js
 /**
- * @param str The string to be processed.
- * @param locale The locale or language of the region.
+ * @param str - The string to be processed.
+ * @param locale - The locale or language of the region.
  * @returns The string with all letters of each word in lowercase.
  * @description Convert all letters of each word in the string to lowercase and return it.
 **/

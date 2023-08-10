@@ -9,7 +9,7 @@ titleTemplate: utils-snap-fn-docs
 ```js
 /**
  * Determine whether the input string is a valid UUID
- * @param str String to be tested
+ * @param str - String to be tested
  * @returns Return a boolean value, where true indicates it is a valid UUID, and false indicates it is not
 */
 ```

@@ -9,8 +9,8 @@ titleTemplate: utils-snap-fn-docs
 ```js
 /**
  * @returns Randomly generated color value
- * @param type Type of color to generate, 'hex' or 'rgb'
- * @param opacity Opacity value
+ * @param type - Type of color to generate, 'hex' or 'rgb'
+ * @param opacity - Opacity value
  * @description Generate a random hexadecimal color value or rgba color
 */
 ```

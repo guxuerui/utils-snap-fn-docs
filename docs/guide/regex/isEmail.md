@@ -9,7 +9,7 @@ titleTemplate: utils-snap-fn-docs
 ```js
 /**
  * Detect whether it is a valid email address
- * @param str Email address to be tested
+ * @param str - Email address to be tested
  * @returns Return a boolean value, where true indicates it is a valid email address, and false indicates it is not
 */
 ```
