@@ -17,13 +17,15 @@ titleTemplate: utils-snap-fn-docs
 # Demo
 
 <Box>
-  <ScrollToDemo />
+  <ClientOnly>
+    <ScrollToDemo />
+  </ClientOnly>
 </Box>
 
 # Usage Example
 
 ```ts
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import { scrollTo } from 'utils-snap-fn'
 
 const top = ref(0)
@@ -31,10 +33,6 @@ const duration = ref(1)
 function go() {
   scrollTo(top.value, duration.value)
 }
-
-onMounted(() => {
-  go()
-})
 ```
 
 [Source Code](https://github.com/guxuerui/utils-snap-fn/blob/main/src/playground/dom/scrollTo.ts)

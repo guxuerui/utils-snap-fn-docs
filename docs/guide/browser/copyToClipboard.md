@@ -29,7 +29,9 @@ titleTemplate: utils-snap-fn-docs
 # Demo
 
 <Box>
-  <CopyToClipboardDemo />
+  <ClientOnly>
+    <CopyToClipboardDemo />
+  </ClientOnly>
 </Box>
 
 # Usage Example

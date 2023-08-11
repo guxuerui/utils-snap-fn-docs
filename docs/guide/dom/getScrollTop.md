@@ -16,7 +16,9 @@ titleTemplate: utils-snap-fn-docs
 # Demo
 
 <Box>
-  <GetScrollTopDemo />
+  <ClientOnly>
+    <GetScrollTopDemo />
+  </ClientOnly>
 </Box>
 
 # Usage Example
