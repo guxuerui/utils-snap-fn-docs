@@ -1,3 +1,15 @@
+## [0.0.6](https://github.com/guxuerui/utils-snap-fn-docs/compare/v0.0.5...v0.0.6) (2023-08-11)
+
+
+### Features
+
+* **docs:** add copyToClipboard functionality to the browser guide ([e02ae8b](https://github.com/guxuerui/utils-snap-fn-docs/commit/e02ae8bf045426bd7b0eae61877681efd450b0ce))
+* **docs:** add documentation for getScrollTop, scrollTo, and setScrollTop functions ([596a961](https://github.com/guxuerui/utils-snap-fn-docs/commit/596a9615b957d1956d3ef2cc2f5008a11dd9d43f))
+* **docs:** add new sections to sidebarGuide in config.ts ([99277e4](https://github.com/guxuerui/utils-snap-fn-docs/commit/99277e41de927089992e787b2fbf0ed2aa795210))
+* **theme:** add new components for DOM manipulation ([9a31ff0](https://github.com/guxuerui/utils-snap-fn-docs/commit/9a31ff0fce638efab8a8f87f66d10994d9996275))
+
+
+
 ## [0.0.5](https://github.com/guxuerui/utils-snap-fn-docs/compare/v0.0.4...v0.0.5) (2023-08-08)
 
 
