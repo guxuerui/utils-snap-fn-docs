@@ -20,6 +20,9 @@ import CapitalsFirstLetterDemo from './components/string/capitalsFirstLetterDemo
 import UppercaseEveryWordDemo from './components/string/uppercaseEveryWordDemo.vue'
 import UppercaseEveryLettersDemo from './components/string/uppercaseEveryLettersDemo.vue'
 import LowercaseEveryLettersDemo from './components/string/lowercaseEveryLettersDemo.vue'
+import GetScrollTopDemo from './components/dom/getScrollTopDemo.vue'
+import SetScrollTopDemo from './components/dom/setScrollTopDemo.vue'
+import ScrollToDemo from './components/dom/ScrollToDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -42,5 +45,8 @@ export default {
     app.component('UppercaseEveryWordDemo', UppercaseEveryWordDemo)
     app.component('UppercaseEveryLettersDemo', UppercaseEveryLettersDemo)
     app.component('LowercaseEveryLettersDemo', LowercaseEveryLettersDemo)
+    app.component('GetScrollTopDemo', GetScrollTopDemo)
+    app.component('SetScrollTopDemo', SetScrollTopDemo)
+    app.component('ScrollToDemo', ScrollToDemo)
   },
 }
