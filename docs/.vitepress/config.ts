@@ -127,6 +127,15 @@ function sidebarGuide() {
             { text: 'findAllNode', link: '/guide/tree/findAllNode' },
           ],
         },
+        {
+          text: 'Dom',
+          collapsible: true,
+          items: [
+            { text: 'getScrollTop', link: '/guide/dom/getScrollTop' },
+            { text: 'setScrollTop', link: '/guide/dom/setScrollTop' },
+            { text: 'scrollTo', link: '/guide/dom/scrollTo' },
+          ],
+        },
       ],
     },
   ]
