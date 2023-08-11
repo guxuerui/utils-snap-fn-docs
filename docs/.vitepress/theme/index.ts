@@ -23,6 +23,7 @@ import LowercaseEveryLettersDemo from './components/string/lowercaseEveryLetters
 import GetScrollTopDemo from './components/dom/getScrollTopDemo.vue'
 import SetScrollTopDemo from './components/dom/setScrollTopDemo.vue'
 import ScrollToDemo from './components/dom/ScrollToDemo.vue'
+import CopyToClipboardDemo from './components/browser/copyToClipboardDemo.vue'
 
 export default {
   ...DefaultTheme,
@@ -48,5 +49,6 @@ export default {
     app.component('GetScrollTopDemo', GetScrollTopDemo)
     app.component('SetScrollTopDemo', SetScrollTopDemo)
     app.component('ScrollToDemo', ScrollToDemo)
+    app.component('CopyToClipboardDemo', CopyToClipboardDemo)
   },
 }

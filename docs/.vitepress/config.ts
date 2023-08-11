@@ -136,6 +136,13 @@ function sidebarGuide() {
             { text: 'scrollTo', link: '/guide/dom/scrollTo' },
           ],
         },
+        {
+          text: 'Browser',
+          collapsible: true,
+          items: [
+            { text: 'copyToClipboard', link: '/guide/browser/copyToClipboard' },
+          ],
+        },
       ],
     },
   ]
