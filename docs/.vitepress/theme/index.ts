@@ -22,7 +22,7 @@ import UppercaseEveryLettersDemo from './components/string/uppercaseEveryLetters
 import LowercaseEveryLettersDemo from './components/string/lowercaseEveryLettersDemo.vue'
 import GetScrollTopDemo from './components/dom/getScrollTopDemo.vue'
 import SetScrollTopDemo from './components/dom/setScrollTopDemo.vue'
-import ScrollToDemo from './components/dom/ScrollToDemo.vue'
+import ScrollToDemo from './components/dom/scrollToDemo.vue'
 import CopyToClipboardDemo from './components/browser/copyToClipboardDemo.vue'
 
 export default {
