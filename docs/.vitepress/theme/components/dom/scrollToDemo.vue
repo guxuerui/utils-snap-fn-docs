@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import { scrollTo } from 'utils-snap-fn'
 
 const top = ref(0)
@@ -7,10 +7,6 @@ const duration = ref(1)
 function go() {
   scrollTo(top.value, duration.value)
 }
-
-onMounted(() => {
-  go()
-})
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import { setScrollTop } from 'utils-snap-fn'
 
 const inputVal = ref(0)
@@ -7,10 +7,6 @@ const inputVal = ref(0)
 function go() {
   setScrollTop(inputVal.value)
 }
-
-onMounted(() => {
-  go()
-})
 </script>
 
 <template>
