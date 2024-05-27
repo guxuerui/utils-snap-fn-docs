@@ -13,7 +13,7 @@
     "date-fns": "^2.30.0",
     "gray-matter": "^4.0.3",
     "unocss": "^0.53.6",
-    "utils-snap-fn": "^1.1.13",
+    "utils-snap-fn": "^1.1.16",
     "vue": "^3.3.4"
   },
   "devDependencies": {
