@@ -143,6 +143,13 @@ function sidebarGuide() {
             { text: 'copyToClipboard', link: '/guide/browser/copyToClipboard' },
           ],
         },
+        {
+          text: 'Date',
+          collapsible: true,
+          items: [
+            { text: 'formatTimeLength', link: '/guide/date/formatTimeLength' },
+          ],
+        },
       ],
     },
   ]

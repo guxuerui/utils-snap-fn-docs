@@ -24,6 +24,7 @@ import GetScrollTopDemo from './components/dom/getScrollTopDemo.vue'
 import SetScrollTopDemo from './components/dom/setScrollTopDemo.vue'
 import ScrollToDemo from './components/dom/scrollToDemo.vue'
 import CopyToClipboardDemo from './components/browser/copyToClipboardDemo.vue'
+import UseFormatTimeLength from './components/date/useFormatTimeLength.vue'
 
 export default {
   ...DefaultTheme,
@@ -50,5 +51,6 @@ export default {
     app.component('SetScrollTopDemo', SetScrollTopDemo)
     app.component('ScrollToDemo', ScrollToDemo)
     app.component('CopyToClipboardDemo', CopyToClipboardDemo)
+    app.component('UseFormatTimeLength', UseFormatTimeLength)
   },
 }
